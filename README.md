@@ -6,9 +6,9 @@
 
 #### Что будет в качестве значения?
 
-> `var i int`
-> `var s struct{}`
-> `var s2 *struct{}`
+> - `var i int`
+> - `var s struct{}`
+> - `var s2 *struct{}`
 
 #### Что под капотом функции Pipe?
 
