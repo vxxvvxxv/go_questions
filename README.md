@@ -51,6 +51,36 @@
 
 > Тот же вопрос что и выше, только совмещаем два понятия и смотрим, что человек не теряется.
 
+#### Что выведет код?
+
+```
+package main
+ 
+import (
+    "fmt"
+)
+ 
+type Temp struct {
+}
+ 
+func main() {
+    var pnt *Temp       // pointer
+    var inf interface{} // interface declaration
+    inf = pnt           // inf is a non-nil interface holding a nil pointer (pnt)
+ 
+    fmt.Printf("pnt is a nil pointer: %v\n", pnt == nil)
+    fmt.Printf("inf is a nil interface: %v\n", inf == nil)
+}
+```
+
+А так?
+
+```
+fmt.Printf("inf is a interface holding a nil pointer: %v\n", inf == (*Temp)(nil))
+```
+
+Source: https://www.golangprograms.com/how-to-check-pointer-or-interface-is-nil.html
+
 #### Если программа работает не так, как предполагается, какими способами можно начать проверять наличие проблем? Как проводите Research проблемы?
 
 > Понимание, на что в первую очередь обращяет внимание, есть ли опыт в таких ситуациях. Обычно смотрят на:
