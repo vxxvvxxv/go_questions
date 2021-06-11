@@ -79,6 +79,14 @@ func main() {
 fmt.Printf("inf is a interface holding a nil pointer: %v\n", inf == (*Temp)(nil))
 ```
 
+Output:
+
+```
+pnt is a nil pointer: true
+inf is a nil interface: false
+inf is a interface holding a nil pointer: true
+```
+
 Source: https://www.golangprograms.com/how-to-check-pointer-or-interface-is-nil.html
 
 #### Если программа работает не так, как предполагается, какими способами можно начать проверять наличие проблем? Как проводите Research проблемы?
