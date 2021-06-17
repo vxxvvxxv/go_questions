@@ -14,6 +14,8 @@
 > - `var s struct{}`
 > - `var s2 *struct{}`
 
+Example: https://play.golang.org/p/YzxAGf3m4Lc
+
 #### Что под капотом функции Pipe?
 
 #### Что такое гонка в Go?
