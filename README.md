@@ -16,7 +16,9 @@
 
 Example: https://play.golang.org/p/YzxAGf3m4Lc
 
-#### Что под капотом функции Pipe?
+#### Как скопировать одну map в другую?
+
+> range
 
 #### Что такое гонка в Go?
 
