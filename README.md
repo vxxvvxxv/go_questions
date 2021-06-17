@@ -75,11 +75,15 @@ func main() {
 }
 ```
 
+https://play.golang.org/p/SjpSv4QemTS
+
 А так?
 
 ```
 fmt.Printf("inf is a interface holding a nil pointer: %v\n", inf == (*Temp)(nil))
 ```
+
+https://play.golang.org/p/2Z2D4SD7owu
 
 Output:
 
@@ -88,6 +92,8 @@ pnt is a nil pointer: true
 inf is a nil interface: false
 inf is a interface holding a nil pointer: true
 ```
+
+Почему так?
 
 Source: https://www.golangprograms.com/how-to-check-pointer-or-interface-is-nil.html
 
