@@ -53,7 +53,49 @@ Example: https://play.golang.org/p/YzxAGf3m4Lc
 
 > Тот же вопрос что и выше, только совмещаем два понятия и смотрим, что человек не теряется.
 
-#### Что выведет код?
+#### 1. Что выведет код?
+
+```golang
+package main
+
+import "fmt"
+
+type example struct {
+    X, Y string
+}
+
+var (
+    a = example{"Aus","Can"} 
+    b = &example{"Jap","Kor"}
+    c = example{X:"US",Y:"UK"}
+    d = example{}
+)
+
+func main() {
+    e := b
+    b.X = "Rus"
+    f := *b
+    fmt.Println("a:\t",a)
+	fmt.Println("b:\t",b)
+	fmt.Println("c:\t",c)
+	fmt.Println("d:\t",d)
+	fmt.Println("e:\t",e)
+	fmt.Println("d:\t",f)	
+}
+```
+
+Вывод:
+
+```
+a:       {Aus Can}
+b:       &{Rus Kor}
+c:       {US UK}
+d:       { }
+e:       &{Rus Kor}
+d:       {Rus Kor}
+```
+
+#### 2. Что выведет код?
 
 ```
 package main
