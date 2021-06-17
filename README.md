@@ -84,6 +84,8 @@ func main() {
 }
 ```
 
+https://play.golang.org/p/02MOucvqU9G
+
 Вывод:
 
 ```
