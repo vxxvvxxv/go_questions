@@ -110,6 +110,22 @@ d:       {Rus Kor}
 
 ```
 package main
+
+var x = 3
+var n int = 5.0 / 3 * 3
+var m int = 5.0 / x * 3
+
+func main() {
+	println(n, m)
+}
+```
+
+https://play.golang.org/p/dJNe-KX-Srg
+
+#### 3. Что выведет код?
+
+```
+package main
  
 import (
     "fmt"
