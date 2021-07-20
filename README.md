@@ -122,6 +122,12 @@ func main() {
 
 https://play.golang.org/p/dJNe-KX-Srg
 
+Вывод:
+
+```
+5 3
+```
+
 #### 3. Что выведет код?
 
 ```
