@@ -95,6 +95,8 @@ Answer (not correct): https://go.dev/play/p/CQYqicDwMSO
 
 Url: https://play.golang.org/p/VElWNaDQ3bV
 
+Почему так: https://habr.com/ru/post/325468/
+
 ## TODO
 
 [ ] Расширить кругозов вопросов
