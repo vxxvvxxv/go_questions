@@ -29,12 +29,14 @@
 
 ```sql
 SELECT 
-  u.`first_name`,
-  u.`last_name`,
-  COUNT(t.`id`) as counts
-FROM `users` as u
-LEFT JOIN `transactions` as t ON u.`id` = t.`user_id`
-GROUP BY u.`first_name`, u.`last_name`
+  u.id as user_id,
+  u.first_name,
+  u.last_name,
+  COUNT(t.id) as counts
+FROM users as u
+LEFT JOIN transactions as t ON u.id = t.user_id
+GROUP BY u.id, u.first_name, u.last_name
+ORDER BY u.id
 ;
 
 ```
