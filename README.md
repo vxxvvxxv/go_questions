@@ -13,6 +13,31 @@
 
 - https://habr.com/ru/company/rebrainme/blog/540354/
 
+#### Bites
+
+Url: https://play.golang.org/p/-O5CF8y5FZ0
+
+```golang
+package main
+
+import (
+	"bytes"
+	"fmt"
+)
+
+func main() {
+	path := []byte("AAAA/BBBBBBBBB")
+	sepIndex := bytes.IndexByte(path, '/')
+	dir1 := path[:sepIndex]
+	dir2 := path[sepIndex+1:]
+	dir1 = append(dir1, "suffix"...)
+	fmt.Printf("%s\n", dir1)
+	fmt.Printf("%s\n", dir2)
+}
+```
+
+Почему так? https://www.golangforall.com/ru/post/golang-slice.html
+
 ## TODO
 
 [ ] Расширить кругозов вопросов
