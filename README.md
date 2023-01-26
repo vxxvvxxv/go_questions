@@ -25,8 +25,10 @@
 Требуется построить отчет user_id, first_name, last_name, количество транзакций.
 ```
 
-Online Postgres: https://sqlize.online/s/1t
-Online MySQL: https://sqlize.online/s/vt
+Online:
+
+- Postgres: https://sqlize.online/s/1t
+- MySQL: https://sqlize.online/s/vt
 
 
 Ответ (PostgreSQL):
