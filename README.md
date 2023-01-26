@@ -46,9 +46,10 @@ ORDER BY u.id
 ;
 
 ```
+Answer:
 
-MySQL URL: https://sqlize.online/s/Lt
-Postgres URL: https://sqlize.online/s/It
+- MySQL URL: https://sqlize.online/s/Lt
+- Postgres URL: https://sqlize.online/s/It
 
 #### Bites
 
