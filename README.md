@@ -7,6 +7,11 @@
 
 - https://habr.com/ru/post/654569/
 - https://habr.com/ru/post/670974/
+- https://parshinpn.ru/ru/blog/golang-interview
+
+### Задачи:
+
+- https://habr.com/ru/company/rebrainme/blog/540354/
 
 ## TODO
 
