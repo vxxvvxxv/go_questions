@@ -8,6 +8,7 @@
 - https://habr.com/ru/post/654569/
 - https://habr.com/ru/post/670974/
 - https://parshinpn.ru/ru/blog/golang-interview
+- Good: https://habr.com/ru/post/325468/
 
 ### Задачи:
 
