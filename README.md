@@ -36,6 +36,14 @@ func main() {
 }
 ```
 
+Output:
+```
+AAAAsuffix
+uffixBBBB
+
+Program exited.
+```
+
 Почему так? https://www.golangforall.com/ru/post/golang-slice.html
 
 ## TODO
