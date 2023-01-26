@@ -40,7 +40,7 @@ GROUP BY u.`id`
 
 ```
 
-URL: https://sqlize.online/s/Xt
+URL: https://sqlize.online/s/Lt
 
 #### Bites
 
