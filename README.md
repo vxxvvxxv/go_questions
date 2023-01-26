@@ -84,6 +84,12 @@ Program exited.
 
 Почему так? https://www.golangforall.com/ru/post/golang-slice.html
 
+#### Merge
+
+Url: https://go.dev/play/p/Ga2YbYCr9m1
+
+Answer (not correct): https://go.dev/play/p/CQYqicDwMSO
+
 ## TODO
 
 [ ] Расширить кругозов вопросов
