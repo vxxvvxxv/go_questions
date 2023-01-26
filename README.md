@@ -1,5 +1,13 @@
 # Вопросы на собеседование Golang
 
+## Links:
+
+
+### Теория:
+
+- https://habr.com/ru/post/654569/
+- https://habr.com/ru/post/670974/
+
 ## TODO
 
 [ ] Расширить кругозов вопросов
