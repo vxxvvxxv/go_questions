@@ -13,6 +13,34 @@
 
 - https://habr.com/ru/company/rebrainme/blog/540354/
 
+#### SQL
+
+Напишите запрос:
+
+```
+Есть две таблицы 
+1- users (id, first_name, last_name) , 
+2- transactions(id, user_id, amount, currency)
+
+Требуется построить отчет user_id, first_name, last_name, количество транзакций.
+```
+
+Ответ:
+
+```sql
+SELECT 
+  u.`first_name`,
+  u.`last_name`,
+  COUNT(t.`id`) as counts
+FROM `users` as u
+LEFT JOIN `transactions` as t ON u.`id` = t.`user_id`
+GROUP BY u.`first_name`, u.`last_name`
+;
+
+```
+
+URL: https://sqlize.online/s/Xt
+
 #### Bites
 
 Url: https://play.golang.org/p/-O5CF8y5FZ0
