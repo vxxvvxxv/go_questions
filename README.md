@@ -95,12 +95,6 @@ type slice struct {
 }
 ```
 
-#### Merge
-
-Url: https://go.dev/play/p/Ga2YbYCr9m1
-
-Answer (not correct): https://go.dev/play/p/CQYqicDwMSO
-
 #### Types
 
 Url: https://play.golang.org/p/VElWNaDQ3bV
@@ -110,6 +104,12 @@ Url: https://play.golang.org/p/VElWNaDQ3bV
 > В обоих случаях мы как бы видим nil, но есть большая разница между "интерфейс с переменной внутри, чьё значение равно nil" и "интерфейс без переменной внутри". Теперь, понимая эту разницу, попробуйте спутать вот эти два примера:
 
 ![Alt text](https://hsto.org/r/w1560/files/ac9/905/1fb/ac99051fbb924e6d8912f479915b7a78.png "a title")
+
+#### Merge
+
+Url: https://go.dev/play/p/Ga2YbYCr9m1
+
+Answer (not correct): https://go.dev/play/p/CQYqicDwMSO
 
 ---
 
