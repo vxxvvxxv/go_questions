@@ -110,6 +110,7 @@ Url: https://play.golang.org/p/VElWNaDQ3bV
 Url: https://go.dev/play/p/Ga2YbYCr9m1
 
 Answer (not correct): https://go.dev/play/p/CQYqicDwMSO
+Answer (can be correct): https://go.dev/play/p/VwezksQvpN3
 
 ---
 
