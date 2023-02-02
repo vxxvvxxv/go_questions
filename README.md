@@ -109,8 +109,17 @@ Url: https://play.golang.org/p/VElWNaDQ3bV
 
 Url: https://go.dev/play/p/Ga2YbYCr9m1
 
-Answer (not correct): https://go.dev/play/p/CQYqicDwMSO
-Answer (can be correct): https://go.dev/play/p/VwezksQvpN3
+```
+a=[], b=[b], n=1 => res=[b], err=<nil>
+a=[], b=[b], n=2 => res=[], err=error process msg
+a=[apple orange kiwi plum], b=[apple banana orange plum], n=5 => res=[apple orange kiwi plum banana], err=<nil>
+a=[a], b=[b], n=2 => res=[a b], err=<nil>
+a=[a], b=[a b], n=2 => res=[a b], err=<nil>
+a=[a b], b=[a], n=2 => res=[a b], err=<nil>
+```
+
+- Answer (not correct): https://go.dev/play/p/CQYqicDwMSO
+- Answer (can be correct): https://go.dev/play/p/VwezksQvpN3
 
 ---
 
