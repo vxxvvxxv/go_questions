@@ -83,8 +83,6 @@ uffixBBBB
 Program exited.
 ```
 
-Почему так? https://www.golangforall.com/ru/post/golang-slice.html
-
 Slice - это всегда ссылка на массив, и пока нет изменения по cap, slice будет ссылаться и меняться у всех, кто ссылается на массив-исходник.
 
 ```golang
@@ -94,6 +92,9 @@ type slice struct {
 	cap   int
 }
 ```
+
+Почему так? https://www.golangforall.com/ru/post/golang-slice.html
+
 
 #### Types
 
