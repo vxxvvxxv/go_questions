@@ -83,6 +83,8 @@ uffixBBBB
 Program exited.
 ```
 
+![Alt text](https://habrastorage.org/r/w1560/files/c88/3dd/6c6/c883dd6c66654f30a7f00eb42eb909c2.png "a title")
+
 Slice - это всегда ссылка на массив, и пока нет изменения по cap, slice будет ссылаться и меняться у всех, кто ссылается на массив-исходник.
 
 ```golang
