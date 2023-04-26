@@ -5,10 +5,10 @@
 
 ### Теория:
 
-- https://habr.com/ru/post/654569/
-- https://habr.com/ru/post/670974/
-- https://parshinpn.ru/ru/blog/golang-interview
-- Good: https://habr.com/ru/post/325468/
+- https://habr.com/ru/post/654569/ - Собеседование Golang разработчика (теоретические вопросы), Часть I
+- https://habr.com/ru/post/670974/ - Собеседование Golang разработчика (теоретические вопросы), Часть II. Что там с конкурентностью?
+- https://parshinpn.ru/ru/blog/golang-interview - Собеседование на позицию Golang разработчика
+- Good: https://habr.com/ru/post/325468/ - Как не наступать на грабли в Go
 
 #### SOLID
 
